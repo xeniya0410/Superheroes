@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class SuperheroAdapter(private val superheroes: List<Superhero>) : RecyclerView.Adapter<SuperheroAdapter.SuperheroViewHolder>() {
 
-    // ViewHolder для Superhero
+    
     class SuperheroViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         val name = view.findViewById<TextView>(R.id.superhero_name)
         val description = view.findViewById<TextView>(R.id.superhero_description)
