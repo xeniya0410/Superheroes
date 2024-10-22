@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Superheroes</string>
+        <string name="superhero_name">Имя супергероя</string>
+        <string name="superhero_description">Описание супергероя</string>
+        <string name="superhero_image_desc">Изображение супергероя</string>
+</resources>
