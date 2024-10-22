@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             Superhero("Великолепный Мару", "Легко спасает день", R.drawable.android_superhero5)
         )
 
-        // Установка адаптера
+        
         val adapter = SuperheroAdapter(superheroes)
         recyclerView.adapter = adapter
     }
